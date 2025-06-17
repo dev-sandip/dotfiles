@@ -35,6 +35,14 @@ return {
 			},
 		},
 	},
-
-
+	{
+		"EdenEast/nightfox.nvim",
+		config = function()
+			require("nightfox").setup({
+				options = {
+					transparent = true -- Add your preferred options here
+				},
+			})
+		end,
+	},
 }

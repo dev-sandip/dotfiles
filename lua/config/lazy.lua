@@ -19,7 +19,7 @@ require("lazy").setup({
 			import = "lazyvim.plugins",
 			opts = {
 				--Important: this is the option where you can change the colorscheme
-				colorscheme = "catppuccin",
+				colorscheme = "nightfox",
 				news = {
 					lazyvim = true,
 					neovim = true,
@@ -42,6 +42,7 @@ require("lazy").setup({
 		-- { import = "lazyvim.plugins.extras.editor.mini-files" },
 		-- { import = "lazyvim.plugins.extras.util.project" },
 		{ import = "plugins" },
+
 	},
 	defaults = {
 		-- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
