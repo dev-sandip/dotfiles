@@ -30,7 +30,6 @@ end
 
 return {
 
-
   -- Gitsigns configuration
   {
     "lewis6991/gitsigns.nvim",
@@ -125,6 +124,14 @@ return {
       scroll = { enabled = false },
     },
   },
+
+  -- Dim inactive portions of the code
+  {
+    "folke/twilight.nvim",
+    opts = {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
+    },
+  },
 }
-
-
